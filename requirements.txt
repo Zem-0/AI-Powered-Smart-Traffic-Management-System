@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+openpyxl
+ultralytics
+opencv-python
+numpy
+cufflinks
