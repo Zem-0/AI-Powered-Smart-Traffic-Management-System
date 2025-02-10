@@ -69,7 +69,7 @@ elif page == "Graphical Representation":
     st.write("This section compares the total vehicle counts for YOLO-based and manual traffic control approaches.")
 
     # Load signal results data
-    signal_df = pd.read_csv("d:/smart_traffic/signal_results.csv")
+    signal_df = pd.read_csv("signal_results.csv")
 
     # Create two columns for side-by-side display
     col1, col2 = st.columns(2)
