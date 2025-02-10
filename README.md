@@ -44,13 +44,14 @@ For more details on the **object detection model**, **algorithm**, and **simulat
 
 ## 🛠 **How It Works**  
 1. **Vehicle Detection:** YOLOv8 detects vehicles from live video feeds.  
-[![Object detection Demo](https://img.youtube.com/vi/f1rQIFcFGig/0.jpg)](https://www.youtube.com/watch?v=ChTifdXcHgs)  
+[![Object Detection Demo](https://img.youtube.com/vi/ChTifdXcHgs/0.jpg)](https://www.youtube.com/watch?v=ChTifdXcHgs)  
 
 2. **Traffic Data Processing:** The detected vehicle counts are analyzed.  
 3. **Signal Adjustment:** Green light durations are set based on vehicle density.  
 4. **Prediction with LSTM:** Future congestion trends are forecasted.  
 5. **Simulation Execution:** The model is tested through multiple runs.  
 6. **Result Storage:** Data is saved in an **Excel sheet** for further analysis.  
+
 
 ---
 
