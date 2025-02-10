@@ -54,12 +54,13 @@ For more details on the **object detection model**, **algorithm**, and **simulat
 
 ---
 
-## 📊 **Demo and Results**  
-- **Real-time traffic simulation with vehicle movements**  
-- **Signal timing adjustments based on YOLO-based vehicle detection**  
-- **Final results stored in** `simulation_results.xlsx`  
+## 📊 Demo and Results
+[![Traffic Simulation Demo](https://img.youtube.com/vi/f1rQIFcFGig/0.jpg)](https://www.youtube.com/watch?v=f1rQIFcFGig)
 
-🎥 [Watch the Traffic Simulation Demo](https://www.youtube.com/watch?v=f1rQIFcFGig)  
+- **Real-time traffic simulation with vehicle movements**  
+- **Signal timing adjustments based on YOLO vehicle detection**  
+- **Excel report (`simulation_results.xlsx`) summarizing results**  
+
 
 ---
 
