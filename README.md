@@ -2,7 +2,17 @@
 
 ## 📌 Problem Statement
 Traditional traffic signals operate on fixed timers, leading to inefficiencies such as unnecessary waiting times and congestion. This project aims to develop an **AI-powered adaptive traffic management system** that dynamically adjusts signal timings based on real-time traffic conditions detected using YOLOv8.
+### Implementation Details
 
+This project can be broken down into 3 modules:
+
+1. `Vehicle Detection Module` - This module is responsible for detecting the number of vehicles in the image received as input from the camera. More specifically, it will provide as output the number of vehicles of each vehicle class such as car, bike, bus, truck, and rickshaw.
+
+2. `Signal Switching Algorithm` - This algorithm updates the red, green, and yellow times of all signals. These timers are set bases on the count of vehicles of each class received from the vehicle detection module and several other factors such as the number of lanes, average speed of each class of vehicle, etc. 
+
+3. `Simulation Module` - A simulation is developed from scratch using [Pygame](https://www.pygame.org/news) library to simulate traffic signals and vehicles moving across a traffic intersection.
+
+Read more about object detection model used, working of the algorithm, and development of simulation
 ## 🚀 Features
 ✅ **YOLOv8-Based Vehicle Detection**: Detects vehicles from live traffic video streams.
 ✅ **LSTM-Based Traffic Prediction**: Forecasts congestion patterns.
@@ -12,6 +22,8 @@ Traditional traffic signals operate on fixed timers, leading to inefficiencies s
 
 ## 🛠 How It Works
 1. **Vehicle Detection**: YOLOv8 detects vehicles from live video feeds.
+🎥 [Watch the Object detection demo](vids\10.02.2025_21.34.08_REC.mp4)
+
 2. **Traffic Data Processing**: The detected vehicle counts are stored and analyzed.
 3. **Signal Adjustment**: Based on vehicle density, green light durations are dynamically set.
 4. **Prediction with LSTM**: Future congestion trends are forecasted.
@@ -22,6 +34,9 @@ Traditional traffic signals operate on fixed timers, leading to inefficiencies s
 - **Real-time traffic simulation with vehicle movements**
 - **Signal timing adjustments based on YOLO vehicle detection**
 - **Excel report (`simulation_results.xlsx`) summarizing results**
+🎥 [Watch the Traffic Simulation Demo](vids\10.02.2025_21.30.20_REC.mp4)
+
+
 
 ## 📂 Project Structure
 ```
