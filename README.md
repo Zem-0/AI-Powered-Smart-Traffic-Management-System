@@ -1,7 +1,27 @@
 # 🚦 AI-Powered Traffic Signal Simulation
 
-## 📌 Project Overview
-This project uses **YOLO-based vehicle detection** and **LSTM-based traffic prediction** to optimize traffic light control. The simulation dynamically adjusts signal timings based on real-time vehicle counts from video feeds.
+## 📌 Problem Statement
+Traditional traffic signals operate on fixed timers, leading to inefficiencies such as unnecessary waiting times and congestion. This project aims to develop an **AI-powered adaptive traffic management system** that dynamically adjusts signal timings based on real-time traffic conditions detected using YOLOv8.
+
+## 🚀 Features
+✅ **YOLOv8-Based Vehicle Detection**: Detects vehicles from live traffic video streams.
+✅ **LSTM-Based Traffic Prediction**: Forecasts congestion patterns.
+✅ **Automated Traffic Signal Control**: Adjusts green light duration dynamically.
+✅ **Multiple Simulation Runs**: Executes `simulation.py` multiple times and saves data.
+✅ **Excel Output**: Stores final traffic data for analysis.
+
+## 🛠 How It Works
+1. **Vehicle Detection**: YOLOv8 detects vehicles from live video feeds.
+2. **Traffic Data Processing**: The detected vehicle counts are stored and analyzed.
+3. **Signal Adjustment**: Based on vehicle density, green light durations are dynamically set.
+4. **Prediction with LSTM**: Future congestion trends are forecasted.
+5. **Simulation Execution**: The traffic signal model is tested through multiple runs.
+6. **Result Storage**: Final data is saved in an Excel sheet for further analysis
+
+## 📊 Demo and Results
+- **Real-time traffic simulation with vehicle movements**
+- **Signal timing adjustments based on YOLO vehicle detection**
+- **Excel report (`simulation_results.xlsx`) summarizing results**
 
 ## 📂 Project Structure
 ```
@@ -11,13 +31,6 @@ This project uses **YOLO-based vehicle detection** and **LSTM-based traffic pred
 ├── simulation_results.xlsx # Aggregated results from multiple simulation runs
 ├── README.md             # Project documentation
 ```
-
-## 🚀 Features
-✅ **YOLOv8-Based Vehicle Detection**: Detects vehicles from live traffic video streams.
-✅ **LSTM-Based Traffic Prediction**: Forecasts congestion patterns.
-✅ **Automated Traffic Signal Control**: Adjusts green light duration dynamically.
-✅ **Multiple Simulation Runs**: Executes `simulation.py` multiple times and saves data.
-✅ **Excel Output**: Stores final traffic data for analysis.
 
 ## 🛠 Installation
 1. **Clone the Repository**
@@ -39,11 +52,6 @@ python simulation.py
 ```sh
 python run_simulation.py
 ```
-
-## 📊 Output
-- **Real-time traffic simulation with vehicle movements**
-- **Signal timing adjustments based on YOLO vehicle detection**
-- **Excel report (`simulation_results.xlsx`) summarizing results**
 
 ## 🤖 Future Enhancements
 - 🔹 **Integrate live traffic camera feeds** for real-world deployment.
