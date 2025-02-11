@@ -1,17 +1,14 @@
-Here’s a **revised and improved version** of your `README.md` with **grammar fixes, clarity improvements, and better formatting**:  
 
 ---
 
 # 🚦 AI-Powered Traffic Signal Simulation
-
+This project uses YOLO-based vehicle detection and LSTM-based traffic prediction to optimize traffic light control. The simulation dynamically adjusts signal timings based on real-time vehicle counts from video feeds.
 ## 📌 Problem Statement  
 Traditional traffic signals operate on fixed timers, leading to inefficiencies such as unnecessary waiting times and congestion. This project aims to develop an **AI-powered adaptive traffic management system** that dynamically adjusts signal timings based on real-time traffic conditions detected using YOLOv8.  
 
 ---
 
 ## 🔧 **Implementation Details**  
-This project consists of three main modules:  
-
 ### **1️⃣ Vehicle Detection Module**  
 - Uses **YOLOv8** to detect vehicles in live traffic feeds.  
 - Classifies detected vehicles into **cars, bikes, buses, trucks, and rickshaws**.  
@@ -44,23 +41,28 @@ For more details on the **object detection model**, **algorithm**, and **simulat
 
 ## 🛠 **How It Works**  
 1. **Vehicle Detection:** YOLOv8 detects vehicles from live video feeds.  
-[![Object Detection Demo](https://img.youtube.com/vi/ChTifdXcHgs/0.jpg)](https://www.youtube.com/watch?v=ChTifdXcHgs)  
-
 2. **Traffic Data Processing:** The detected vehicle counts are analyzed.  
 3. **Signal Adjustment:** Green light durations are set based on vehicle density.  
 4. **Prediction with LSTM:** Future congestion trends are forecasted.  
 5. **Simulation Execution:** The model is tested through multiple runs.  
-6. **Result Storage:** Data is saved in an **Excel sheet** for further analysis.  
+6. **Result Storage:** Data is saved in an **Excel sheet** for further analysis.
+[![Traffic Simulation Demo](https://github.com/Zem-0/AI-Powered-Smart-Traffic-Management-System/blob/main/ezgif.com-video-to-gif-converter.gif)]
+
+   
+  
 
 
 ---
 
 ## 📊 Demo and Results
-[![Traffic Simulation Demo](https://img.youtube.com/vi/f1rQIFcFGig/0.jpg)](https://www.youtube.com/watch?v=f1rQIFcFGig)
+[![Traffic Simulation Demo](https://github.com/Zem-0/AI-Powered-Smart-Traffic-Management-System/blob/main/ezgif.com-speed.gif)]
 
 - **Real-time traffic simulation with vehicle movements**  
 - **Signal timing adjustments based on YOLO vehicle detection**  
-- **Excel report (`simulation_results.xlsx`) summarizing results**  
+- **Excel report (`simulation_results.xlsx`) summarizing results**
+
+![Traffic Simulation](https://github.com/Zem-0/AI-Powered-Smart-Traffic-Management-System/blob/main/Screenshot%202025-02-11%20120803.png)
+
 
 
 ---
